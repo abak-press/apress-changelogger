@@ -6,11 +6,10 @@ require 'apress/changelogger/version'
 Gem::Specification.new do |spec|
   spec.name          = "apress-changelogger"
   spec.version       = Apress::Changelogger::VERSION
-  spec.authors       = ["bibendi"]
-  spec.email         = ["bibendi@bk.ru"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.authors       = ["Merkushin"]
+  spec.email         = ["merkushin.m.s@gmail.com"]
+  spec.summary       = 'Changelogger'
+  spec.homepage      = "https://github.com/abak-press/apress-changelogger"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

@@ -1,6 +1,6 @@
 # Apress::Changelogger
 
-TODO: Write a gem description
+Changelogger
 
 ## Installation
 
@@ -20,11 +20,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+Apress::ChangeLogger.new.log_changes
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/apress-changelogger/fork )
+1. Fork it ( https://github.com/abak-press/apress-changelogger/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
